@@ -5,11 +5,6 @@
 - [x] Images
 - [x] Emojis
 
-## Tables
-
-| | | |
-|------|-----|--------|
-
 
 ## External Link
 
