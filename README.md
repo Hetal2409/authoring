@@ -28,7 +28,7 @@
 |Names|Class|
 |-----|-----|
 |Hetal|WebDev|
-|Sadhana|WebDev|
+|Hetal|WebDev|
 
 
 
