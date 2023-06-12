@@ -12,7 +12,7 @@
 
 ## Image
 
-![GitHub](https://github.com/Hetal2409/authoring/blob/main/download.png)
+![GitHub](https://github.com/Hetal2409/authoring/blob/main/download.png?raw=true)
 
 ## Emoji
 
