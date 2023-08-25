@@ -1,0 +1,83 @@
+.one {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  width: 80%;
+  margin-block: 20px;
+}
+
+.one::before,
+.one::after {
+  content: "";
+  display: block;
+  background-color: red;
+  height: 5px;
+  width: 100vw;
+}
+
+/* Shapes */
+
+.triangle {
+  height: 200px;
+  width: 200px;
+  margin: 50px auto;
+  background-color: rebeccapurple;
+
+  border: 10px solid black;
+}
+
+.square {
+  height: 200px;
+  width: 200px;
+  margin: 100px;
+  background-color: rgb(51, 119, 153);
+
+  /* transition-property: all;
+  transition-duration: 2s;
+  transition-delay: 2s;
+  transition-timing-function: ease; */
+
+  /* transition: background-color 1s ease-in-out 0.5s, margin 5s; */
+  transition: all 1s ease-in-out 0.5s;
+}
+
+.square:hover {
+  background-color: rgba(156, 113, 5, 0.505);
+  /* margin: 10px; */
+
+  /* transform: rotate(125deg); */
+  /* transform: translatex(100px);
+  transform: translatey(100px); */
+  /* transform: translate(50px, 100px); */
+  /* transform: scale(0.5); */
+  /* transform: skew(60deg, 15deg); */
+
+  /* transform: matrix(1, 2, -1, 1, 80, 80); */
+
+  transform: rotate(360deg) translate(50px, 50px);
+
+  /* transition-property: all;
+  transition-duration: 5s; */
+}
+
+.clip-path {
+  height: 180px;
+  width: 180px;
+  margin-left: 100px;
+  background-color: deepskyblue;
+  clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    100% 75%,
+    75% 75%,
+    75% 100%,
+    50% 75%,
+    0% 75%
+  );
+}
